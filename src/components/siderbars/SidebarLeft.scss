@@ -1,0 +1,104 @@
+.SidebarLeft {
+  width: 346px;
+  .icons1 {
+    padding-top: 70px;
+    padding-left: 30px;
+    a {
+      display: flex;
+      align-items: center;
+      svg {
+        width: 32px;
+        height: 32px;
+        fill: #ffffff;
+      }
+      span {
+        font-family: Circular Std;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22.77px;
+        text-align: left;
+        color: #ffffff;
+        padding-left: 20px;
+      }
+    }
+  }
+  .icons {
+    padding-left: 30px;
+    padding-top: 20px;
+    a {
+      display: flex;
+      align-items: center;
+      svg {
+        width: 32px;
+        height: 32px;
+        fill: #ffffff;
+      }
+      span {
+        font-family: Circular Std;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22.77px;
+        text-align: left;
+        color: #ffffff;
+        padding-left: 20px;
+      }
+    }
+  }
+  .create {
+    padding-left: 30px;
+    padding-top: 54px;
+    padding-bottom: 25px;
+    a {
+      display: flex;
+      align-items: center;
+      svg {
+        width: 32px;
+        height: 32px;
+        fill: #ffffff;
+      }
+      span {
+        font-family: Circular Std;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22.77px;
+        text-align: left;
+        color: #ffffff;
+        padding-left: 20px;
+      }
+    }
+  }
+  .like {
+    padding-left: 30px;
+    a {
+      display: flex;
+      align-items: center;
+      svg {
+        width: 32px;
+        height: 32px;
+        fill: #ffffff;
+      }
+      span {
+        font-family: Circular Std;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22.77px;
+        text-align: left;
+        color: #ffffff;
+        padding-left: 20px;
+      }
+    }
+  }
+  .sidebar-bottom {
+    padding-top: 42px;
+    p {
+      font-family: Circular Std;
+      font-size: 18px;
+      font-weight: 450;
+      line-height: 22.77px;
+      text-align: left;
+      color: #b3b3b3;
+      padding-bottom: 18px;
+      padding-left: 30px;
+    }
+  }
+}

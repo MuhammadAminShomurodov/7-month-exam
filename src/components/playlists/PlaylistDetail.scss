@@ -1,0 +1,189 @@
+.playlist_big {
+  position: relative;
+  .playlist_details_all {
+    display: flex;
+    .playlist_d_header {
+      width: 1072px;
+      background: linear-gradient(180deg, #def628 5.09%, #121212 43.28%);
+      height: 1000px;
+      .arrow {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        padding-left: 41px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .playlist_d_api {
+        display: flex;
+        align-items: center;
+        padding-left: 41px;
+        img {
+          border-radius: 30px;
+        }
+        .playlist_d_text {
+          padding-left: 32px;
+          h2 {
+            font-family: Circular Std;
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 100px;
+            letter-spacing: -0.06em;
+            text-align: left;
+            color: #ffffff;
+          }
+          p {
+            font-family: Circular Std;
+            font-size: 18px;
+            font-weight: 450;
+            line-height: 22.77px;
+            letter-spacing: 0.01em;
+            text-align: left;
+
+            color: #ffffffb2;
+          }
+        }
+      }
+      .playlist_tracks {
+        h3 {
+          font-family: Circular Std;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 22.77px;
+          letter-spacing: 0.01em;
+          text-align: left;
+          color: #ffffffb2;
+          padding-top: 30px;
+          padding-left: 41px;
+          padding-bottom: 20px;
+        }
+        .pagination {
+          margin-top: 30px;
+          background-color: #ffffff38;
+          border-radius: 30px;
+          display: flex;
+          justify-content: center;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+
+        .track_item {
+          display: flex;
+          align-items: center;
+          padding: 10px 0;
+          border-bottom: 1px solid #333;
+          color: #fff;
+
+          &:hover {
+            background-color: #3333334a;
+          }
+
+          .track_index {
+            width: 30px;
+            text-align: center;
+            font-weight: bold;
+            font-family: Circular Std;
+            font-size: 22px;
+            font-weight: 450;
+            line-height: 27.83px;
+            letter-spacing: 0.02em;
+            text-align: right;
+            color: #b3b3b3;
+            padding-right: 43px;
+            padding-left: 43px;
+          }
+
+          .track_img {
+            width: 50px !important;
+            height: 50px;
+            margin-right: 15px;
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 4px;
+            }
+          }
+
+          .track_info {
+            flex: 1;
+
+            .track_name {
+              font-size: 16px;
+              font-weight: bold;
+              font-family: Circular Std;
+              font-size: 16px;
+              font-weight: 450;
+              line-height: 25.3px;
+              letter-spacing: 0.01em;
+              text-align: left;
+              color: #ffffff;
+            }
+
+            .track_artist {
+              font-size: 14px;
+              color: #b3b3b3;
+              font-family: Circular Std;
+              font-size: 12px;
+              font-weight: 450;
+              line-height: 22.77px;
+              text-align: left;
+            }
+          }
+
+          .track_album {
+            flex: 1;
+            font-size: 14px;
+            color: #b3b3b3;
+            font-family: Circular Std;
+            font-weight: 450;
+            line-height: 22.77px;
+            text-align: left;
+          }
+
+          .track_favorite {
+            width: 20px;
+            margin-right: 20px;
+
+            img {
+              width: 100%;
+              cursor: pointer;
+            }
+          }
+
+          .track_duration {
+            width: 40px;
+            text-align: right;
+            color: #fff;
+            font-family: Circular Std;
+            font-size: 20px;
+            font-weight: 450;
+            line-height: 25.3px;
+            letter-spacing: -0.03em;
+            text-align: left;
+          }
+
+          .track_audio {
+            display: none;
+          }
+        }
+        .play_pause_button {
+          background: none;
+          border: none;
+          img {
+            width: 38px;
+            height: 38px;
+            cursor: pointer;
+            margin-right: 43px;
+            margin-left: 34px;
+          }
+        }
+      }
+    }
+  }
+}

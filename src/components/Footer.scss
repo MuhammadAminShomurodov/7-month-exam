@@ -1,0 +1,112 @@
+// src/components/Footer.scss
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #181818;
+  color: white;
+  padding: 20px;
+  border-top: 1px solid #282828;
+  margin-top: 400px;
+
+  .footer__center {
+    .footer__playPauseButton {
+      border: none;
+      background: none;
+      cursor: pointer;
+      img {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+  &__left,
+  &__center,
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__albumLogo {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+  }
+
+  &__songInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+
+    h4 {
+      margin: 0;
+      font-family: Circular Std;
+      font-size: 18px;
+      font-weight: 450;
+      line-height: 22.77px;
+      text-align: left;
+      color: #ffffff;
+    }
+
+    p {
+      margin: 0;
+      color: gray;
+      font-family: Circular Std;
+      font-size: 16px;
+      font-weight: 450;
+      line-height: 20.24px;
+      letter-spacing: -0.05em;
+      text-align: left;
+    }
+  }
+
+  &__icon {
+    margin: 0 15px;
+    cursor: pointer;
+
+    &:hover {
+      color: #1db954;
+    }
+  }
+
+  &__progress {
+    display: flex;
+    align-items: center;
+
+    p {
+      margin: 0 10px;
+      font-size: 12px;
+    }
+  }
+
+  &__progressBar,
+  &__volumeBar {
+    width: 100px;
+    cursor: pointer;
+    background: #535353;
+    border-radius: 5px;
+
+    &::-webkit-slider-thumb {
+      width: 12px;
+      height: 12px;
+      background: #1db954;
+      border-radius: 50%;
+      cursor: pointer;
+      -webkit-appearance: none;
+    }
+
+    &::-moz-range-thumb {
+      width: 12px;
+      height: 12px;
+      background: #1db954;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+
+  &__right {
+    input[type="range"] {
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Circular Std";
+  src: url(../src/assets/fonts/CircularStd.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1748px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  background-color: #121212;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
